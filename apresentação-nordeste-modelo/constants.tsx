@@ -236,64 +236,67 @@ export const SLIDES: SlideData[] = [
   {
     id: 15,
     type: SlideType.COMPARISON,
-    title: "Custo de Sistemas Prontos (Mercado)",
-    subtitle: "Estimativa anual baseada em players como TOTVS, Sankhya, AWS",
+    title: "Custo de Sistemas Prontos (SaaS)",
+    subtitle: "SaaS Básicos vs Robustos (Sankhya, TOTVS)",
     content: [
-      "Manutenção/Checklists: R$ 550 - R$ 900/mês",
-      "Chamados: R$ 400 - R$ 1.200/mês",
-      "Gestão Logística/Comercial: R$ 2.500 - R$ 7.000/mês",
-      "RH/Competências: R$ 600 - R$ 3.000/mês",
-      "Infraestrutura Cloud: R$ 250 - R$ 1.000/mês"
+      "SaaS Básicos (Estoque/Forms): R$ 150 - R$ 400/mês",
+      "SaaS Intermediários (Rastreio): R$ 500 - R$ 2.000/mês",
+      "Sistemas Robustos: R$ 1.500 - R$ 6.000/mês (+ Setup 20k)",
+      "Para o Ecossistema atual: Necessário 3 a 5 sistemas.",
+      "Mensalidade Mínima Estimada: R$ 4.500,00"
     ],
-    highlight: "Custo Anual: R$ 78.000 a R$ 214.000",
+    highlight: "Custo Anual Mín: R$ 54.000",
     data: [
-      { name: 'Manutenção', min: 6600, max: 10800 },
-      { name: 'Chamados', min: 4800, max: 14400 },
-      { name: 'ERP/Logística', min: 30000, max: 84000 },
-      { name: 'RH', min: 7200, max: 36000 },
-      { name: 'Cloud', min: 3000, max: 12000 },
+      { name: 'SaaS Básico', min: 1800, max: 4800 },
+      { name: 'SaaS Médio', min: 6000, max: 24000 },
+      { name: 'SaaS Robusto', min: 18000, max: 72000 },
+      { name: 'Combo (3-5 systems)', min: 54000, max: 90000 },
     ],
     icon: "DollarSign"
   },
   {
     id: 16,
     type: SlideType.COMPARISON,
-    title: "Custo de Desenvolvimento Externo",
-    subtitle: "Se contratássemos uma Software House",
+    title: "Desenvolvimento Terceirizado",
+    subtitle: "Custo para criar o mesmo Ecossistema fora",
     content: [
-      "Desenvolvimento de sistemas personalizados: R$ 50k - R$ 150k (setup)",
-      "Hospedagem gerenciada + Suporte: R$ 9.600 - R$ 24.000/ano"
+      "Sistema Único Simples: R$ 10k - R$ 25k",
+      "Sistema Completo Médio: R$ 30k - R$ 60k",
+      "Ecossistema Completo (O que temos): R$ 120k - R$ 250k",
+      "Manutenção Mensal: R$ 1.500 - R$ 4.000"
     ],
-    highlight: "Total 1º Ano: > R$ 200.000,00",
+    highlight: "Investimento: > R$ 120.000",
     data: [
-      { name: 'Projeto (Setup)', value: 150000 },
-      { name: 'Suporte Anual', value: 24000 },
+      { name: 'Simples', value: 25000 },
+      { name: 'Médio', value: 60000 },
+      { name: 'Ecossistema Completo', value: 120000 },
     ],
     icon: "TrendingDown"
   },
   {
     id: 17,
     type: SlideType.BIG_NUMBER,
-    title: "Quanto custa nossa solução?",
-    subtitle: "Custo Anual Real",
-    highlight: "R$ 216,00",
+    title: "Custo Real do Ecossistema",
+    subtitle: "Manutenção Interna (Proporcional)",
+    highlight: "R$ 391,28 / mês",
     content: [
-      "Servidor: R$ 0 (Reaproveitado)",
-      "Licenças: R$ 0 (Open Source)",
-      "Manutenção: R$ 0 (Interna)",
-      "Energia: ~R$ 18/mês"
+      "Salário (20% dedicação): R$ 373,28",
+      "Energia (Servidor 24h): ~R$ 18,00",
+      "Licenças/Ferramentas: R$ 0,00",
+      "Total Anual: ~R$ 4.700"
     ],
     icon: "Zap"
   },
   {
     id: 18,
     type: SlideType.BIG_NUMBER,
-    title: "Economia Potencial Gerada",
-    subtitle: "Valor que deixou de sair do caixa da empresa",
-    highlight: "R$ 213.784,00 / ano",
+    title: "Economia Real Gerada",
+    subtitle: "Comparativo: 3 Sistemas Robustos vs Interno",
+    highlight: "R$ 49.304 / ano",
     content: [
-      "Comparativo Máximo de Mercado vs Interno",
-      "Economia mensal de até R$ 17.800"
+      "Economia Mensal: R$ 4.108,72",
+      "Projeção em 3 anos: R$ 147.913,92",
+      "Zero mensalidades externas."
     ],
     icon: "TrendingDown"
   },
@@ -332,7 +335,8 @@ export const SLIDES: SlideData[] = [
     subtitle: "Nordeste Locações",
     highlight: "“De Frente para o Futuro”",
     content: [
-      "Tecnologia feita internamente, com propósito, economia e resultado real."
+      "O Ecossistema Digital desenvolvido internamente entrega automação total, integração, zero mensalidades e uma economia anual superior a R$ 49 mil.",
+      "Tecnologia feita sob medida, com custo mínimo e impacto máximo."
     ],
     icon: "Rocket",
     backgroundImage: "https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=2072&auto=format&fit=crop"
